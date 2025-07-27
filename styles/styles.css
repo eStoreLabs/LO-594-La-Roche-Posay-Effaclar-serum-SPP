@@ -251,7 +251,9 @@
     margin-bottom: 60px;
   }
   #es-rc #es-rc-content .es-ingredients__list {
-    justify-content: flex-end;
+    justify-content: flex-start;
+    max-width: 70%;
+    margin-left: auto;
     padding-bottom: 92px;
   }
   #es-rc #es-rc-content .es-ingredients__container {
@@ -260,15 +262,12 @@
     padding-bottom: 0px;
   }
   #es-rc #es-rc-content .es-ingredients__single {
-    width: 37%;
+    width: 50%;
     padding-top: 30px;
     flex-direction: row;
     justify-content: unset;
     align-items: unset;
     text-align: left;
-  }
-  #es-rc #es-rc-content .es-ingredients__single:nth-of-type(3) {
-    width: 58%;
   }
   #es-rc #es-rc-content .es-ingredients__single--text--title {
     margin-bottom: 5px;

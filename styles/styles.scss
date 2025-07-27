@@ -315,7 +315,9 @@ $media-breakpoint-research: 775px;
         margin-bottom: 60px;
       }
       &__list {
-        justify-content: flex-end;
+        justify-content: flex-start;
+        max-width: 70%;
+        margin-left: auto;
         padding-bottom: 92px;
       }
       &__container {
@@ -324,15 +326,12 @@ $media-breakpoint-research: 775px;
         padding-bottom: 0px;
       }
       &__single {
-        width: 37%;
+        width: 50%;
         padding-top: 30px;
         flex-direction: row;
         justify-content: unset;
         align-items: unset;
         text-align: left;
-        &:nth-of-type(3) {
-          width: 58%;
-        }
         &--text--title {
           margin-bottom: 5px;
         }

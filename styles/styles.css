@@ -206,7 +206,7 @@
 #es-rc #es-rc-content .es-ingredients__container {
   background-size: 250px;
   background-repeat: no-repeat;
-  background-position: bottom left;
+  background-position: bottom center;
   padding-bottom: 390px;
 }
 #es-rc #es-rc-content .es-ingredients__list {
@@ -240,10 +240,17 @@
 }
 #es-rc #es-rc-content .es-ingredients__single--img img {
   max-width: 80px;
+  aspect-ratio: 1/1;
   transition: all 0.3s ease-in-out;
 }
 #es-rc #es-rc-content .es-ingredients__single--img img:hover {
   transform: scale(1.1);
+}
+@media (min-width: 576px) and (max-width: 900px) {
+  #es-rc #es-rc-content .es-ingredients__container {
+    background-size: 0%;
+    padding-bottom: 50px;
+  }
 }
 @media (min-width: 900px) {
   #es-rc #es-rc-content .es-ingredients .es-title-small {

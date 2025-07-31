@@ -91,12 +91,6 @@
     padding: 0;
   }
 }
-#es-rc #es-rc-content .es-kv--mobile {
-  padding: 50px 50px 0 0;
-}
-#es-rc #es-rc-content .es-kv--mobile__img {
-  margin: 0;
-}
 #es-rc #es-rc-content .es-kv__left {
   color: #fff;
   text-align: center;

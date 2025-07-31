@@ -153,7 +153,8 @@
   flex-wrap: wrap;
   gap: 25px;
   padding-inline: 16px;
-  margin-block: 50px;
+  max-width: 390px;
+  margin: 50px auto;
 }
 #es-rc #es-rc-content .es-benefits__single {
   display: flex;
@@ -178,6 +179,8 @@
     flex-direction: row;
     justify-content: space-between;
     padding-inline: 32px;
+    max-width: unset;
+    margin-block: 50px;
   }
   #es-rc #es-rc-content .es-benefits__single {
     max-width: 33%;

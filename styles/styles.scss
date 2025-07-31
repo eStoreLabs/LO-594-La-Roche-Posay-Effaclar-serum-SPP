@@ -269,6 +269,7 @@ $media-breakpoint-research: 775px;
     }
     &__list {
       display: flex;
+      flex-direction: column;
       flex-wrap: wrap;
       justify-content: center;
     }
@@ -277,7 +278,6 @@ $media-breakpoint-research: 775px;
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
-      width: 48%;
       padding-top: 30px;
       text-align: center;
       padding-left: 10px;
@@ -310,6 +310,14 @@ $media-breakpoint-research: 775px;
       &__container {
         background-size: 0%;
         padding-bottom: 50px;
+      }
+    }
+    @media (min-width: $media-breakpoint-md) {
+      &__list {
+        flex-direction: row;
+      }
+      &__single {
+        width: 48%;
       }
     }
     @media (min-width: $media-breakpoint-lg) {

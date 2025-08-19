@@ -498,7 +498,7 @@
 #es-rc #es-rc-content .es-swiper1 .swiper-pagination-bullet {
   opacity: 0.1;
 }
-#es-rc #es-rc-content .es-swiper1 .swiper-pagination-bullet-es-active {
+#es-rc #es-rc-content .es-swiper1 .swiper-pagination-bullet-active {
   background: #00a5a7;
   opacity: 1;
 }
@@ -751,7 +751,7 @@
 #es-rc #es-rc-content .es-swiper2 .swiper-pagination-bullet {
   opacity: 0.1;
 }
-#es-rc #es-rc-content .es-swiper2 .swiper-pagination-bullet-es-active {
+#es-rc #es-rc-content .es-swiper2 .swiper-pagination-bullet-active {
   background: #00a5a7;
   opacity: 1;
 }
